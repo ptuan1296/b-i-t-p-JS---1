@@ -27,9 +27,11 @@ var me = {
 };
 console.log(me.name)
 
-// Array ( mảng có thể chứa 1: number, 2: object, 3: mảng, 4: string, 5: boolean )
+// Array ( mảng có thể chứa 1: number, 2: mảng, 3: string, 3: boolean )
 VD1: var mobie = ['samsung', 'apple', 'oppo'] 
 VD2: var number = [1,3,5,7]
+VD3: var mobie = ['samsung', '[apple]', 'oppo'] 
+VD3: var mobie = ['samsung', true , 'oppo'] 
 var motor1 = {
     name: 'wave'   
 }
