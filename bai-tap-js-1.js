@@ -27,8 +27,8 @@ var me = {
 };
 console.log(me.name)
 
-// Array ( mảng có thể chứa 1: number, 2: object )
-VD1: var mobie = ['samsung', 'apple', 'oppo']
+// Array ( mảng có thể chứa 1: number, 2: object, 3: mảng, 4: string, 5: boolean )
+VD1: var mobie = ['samsung', 'apple', 'oppo'] 
 VD2: var number = [1,3,5,7]
 var motor1 = {
     name: 'wave'   
@@ -40,6 +40,6 @@ var motor2 = {
 
 var motor = [motor1,motor2] 
 console.log(motor);
-console.log(motor.[0])       ( lấy thành phần trong mảng theo thứ tự 0 1 2... ) kết quả: {name: 'wave'}
-console.log(motor.[1].name)  ( truy xuất vào thuộc tính của thành phần trong mảng ) kết quả:  sh
+console.log(motor[0])       ( lấy thành phần trong mảng theo thứ tự 0 1 2... ) kết quả: {name: 'wave'}
+console.log(motor[1].name)  ( truy xuất vào thuộc tính của thành phần trong mảng ) kết quả:  sh
 
